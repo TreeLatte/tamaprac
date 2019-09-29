@@ -1,0 +1,17 @@
+//_는 암묵적 약속(있어도 import에는 문제없음.)
+// .top__wrapper {
+//   background-color: red;
+// }
+.top {
+  &__wrapper {
+    background-color: blue;
+  }
+
+  &__title {
+    background-color: red;
+  }
+
+  &__description {
+    background-color: green;
+  }
+}

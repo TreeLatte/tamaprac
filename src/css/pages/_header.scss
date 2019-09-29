@@ -1,0 +1,48 @@
+html {
+  margin: 0%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+
+.top {
+  position: relative;
+  width: 95%;
+  height: 80px;
+  min-width: 340px;
+  max-width: 1260px;
+  margin: 0% auto;
+
+  &__h1 {
+    left: 0;
+    position: absolute;
+    top: -10px;
+  }
+
+  &__h1 img {
+    vertical-align: top;
+    width: 155px;
+    max-width: 100%;
+  }
+
+  &__menu {
+    margin: 0 325px 0 145px;
+  }
+
+  &__li {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+    font-size: 21px;
+  }
+
+  &__util {
+    float: left;
+    right: 0%;
+  }
+}
