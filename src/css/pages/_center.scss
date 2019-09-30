@@ -1,0 +1,12 @@
+.center {
+  background-color: blue;
+  position: relative;
+  height: 1000px;
+
+  &__li {
+    width: 20%;
+    margin: 0 2%;
+    text-align: center;
+    background-color: red;
+  }
+}

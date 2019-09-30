@@ -1,0 +1,23 @@
+//_는 암묵적 약속(있어도 import에는 문제없음.)
+// .top__wrapper {
+//   background-color: red;
+// }
+html {
+  margin: 0%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+li {
+  list-style: none;
+
+  float: left;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
