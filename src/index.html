@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+ 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -21,21 +22,23 @@
       </div>
       <div class="top__util">
           <div class="top__util__li">
-           <div class="site-find">검색하기
-             <img src="./img/icon/find.jpg" alt="">
+           <div class="top__site__find">
+             <input class="top__site__find__input" value="검색하기"> 
+             <img src="./img/icon/find.png" id="site_img">
            </div>
           </div>
           <div class="top__util__li">
-           <a href="/sitemap" class="site-map">
-             사이트맵
-             <img src="./img/icon/icon.jpg">
-           </a>
+              <div class="top__site__map">
+                <a href="/sitemap">
+                사이트맵 <img src="./img/icon/icon.png" id="site_img">
+                </a>
+              </div>
           </div>
           <div class="top__util__li">
-            <div class="site-en">
-               en
+            <div class="top__site__en">
+              <a href="/en">EN</a>
             </div>
-         </div>
+          </div>
       </div>
     </div>
     <div class="main">
@@ -48,8 +51,26 @@
           <div class="center__container">
               <ul class="center__container__menu">
                 <li class="center__li">
-                  <div class="center__box2">a</div>
-                  <div class="center__box2">b</div>
+                  <div class="center__box2">
+                    <div class="center__box2__section1">
+                        <p class="seimei">생명보험협회</p>
+                    </div>
+                    <div class="center__box2__section2">
+                      <div class="center__box2__section2__article">
+                        <p>보험가입자의 권익보호 및 <br> 건전한 보험문화 확산</p>
+                        <div class="center__sitemap">바로가기→</div>
+                      </div>
+                      <img src="./img/icon/icon_s0104.png" alt="">
+                    </div>
+                  </div>
+                  <div class="center__box2">
+                      <div class="center__box2__section1">
+                          <p class="often">자주찾는 메뉴</p>
+                        </div>
+                        <div class="center__box2__section2">
+                          
+                        </div>
+                  </div>
                 </li>
                 <li class="center__li">
                   <div class="center__box1">c</div>
@@ -73,7 +94,7 @@
               가나다라마바사
             </div>
             <div class="bottom__arrow">
-              >
+              <a href="/next"><img src="./img/icon/icon_f_next.png" alt=""></a>
             </div>
         </div>
         <div class="bottom__article">
@@ -84,7 +105,7 @@
               abcdefghijklmn
             </div>
             <div class="bottom__arrow">
-              >
+              <a href="/next"><img src="./img/icon/icon_f_next.png" alt=""></a>
             </div>
         </div>
             

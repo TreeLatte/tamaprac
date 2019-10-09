@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
 .top {
   position: relative;
-  width: 85%;
+  width: 1500px;
   height: 80px;
   min-width: 340px;
-  margin: 0% auto;
+  margin: 0% 310px;
   top: 25px;
+  font-family: 'Nanum Gothic', sans-serif;
 
   &__logo {
     left: 0;
@@ -19,26 +21,85 @@
 
   &__menu {
     position: relative;
-    margin: 0 20%;
+    margin: 0 160px;
 
     &__li {
       display: inline-block;
-      width: 20%;
+      width: 180px;
       text-align: center;
       font-size: 21px;
+      margin: 5px 0;
     }
   }
 
   &__util {
-    width: 30%;
+    width: 620px;
     position: absolute;
-    right: 0;
+    right: 60px;
 
     &__li {
       display: inline-block;
       text-align: center;
       font-size: 15px;
-      margin: 0 5%;
+      margin: 0 7px;
     }
   }
+
+  &__site {
+    font-family: 'Nanum Gothic', sans-serif;
+
+    &__find {
+      background-color: darkgrey;
+      border-radius: 15px;
+      border-color: black;
+      font-family: bold;
+      width: 160px;
+      padding: 10px;
+      text-align: center;
+      float: left;
+
+      &__input {
+        width: 100px;
+        display: inline;
+        background-color: darkgrey;
+        border: none;
+      }
+    }
+    &__map {
+      border-radius: 15px;
+      width: 100px;
+      padding: 10px;
+      text-align: center;
+      float: left;
+      border-style: solid;
+      border-width: 1px;
+    }
+
+    &__en {
+      border-radius: 50%;
+      width: 20px;
+      padding: 10px;
+      text-align: center;
+      vertical-align: middle;
+      float: left;
+      background: darkblue;
+    }
+
+    &__en a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    &__en a:link {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+#site_img {
+  vertical-align: top;
+  width: 15px;
+  max-width: 100%;
 }

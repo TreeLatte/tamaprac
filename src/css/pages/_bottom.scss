@@ -1,8 +1,8 @@
 .bottom {
   background-color: grey;
   position: relative;
-  height: 80px;
-
+  height: 70px;
+  width: 1903px;
   &__notice,
   &__article {
     position: relative;
@@ -10,24 +10,24 @@
     width: 40%;
 
     margin: 0 5%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   &__tag {
-    padding: 4% 0;
+    padding: 3% 0 2% 0;
     float: left;
     position: relative;
     width: 25%;
     border-color: red;
   }
   &__content {
-    padding: 4% 0;
+    padding: 3% 0 2% 0;
     float: left;
     width: 50%;
     border-color: green;
   }
   &__arrow {
-    padding: 4% 0;
+    padding: 3% 0 2% 0;
     float: left;
     width: 15%;
     border-color: blue;
