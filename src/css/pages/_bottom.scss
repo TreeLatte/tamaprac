@@ -1,5 +1,5 @@
 .bottom {
-  background-color: grey;
+  background-color: #0d2d4f;
   position: relative;
   height: 70px;
   width: 1903px;
@@ -7,10 +7,14 @@
   &__article {
     position: relative;
     float: left;
-    width: 40%;
+    width: 750px;
 
     margin: 0 5%;
     font-size: 1.2rem;
+
+    color: white;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
   }
 
   &__tag {
@@ -18,18 +22,16 @@
     float: left;
     position: relative;
     width: 25%;
-    border-color: red;
   }
   &__content {
     padding: 3% 0 2% 0;
     float: left;
     width: 50%;
-    border-color: green;
+    text-align: left;
   }
   &__arrow {
     padding: 3% 0 2% 0;
     float: left;
     width: 15%;
-    border-color: blue;
   }
 }
